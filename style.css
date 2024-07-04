@@ -14,7 +14,7 @@
 }
 
 #btn1{
-    padding:  17px 32px;
+    padding:  15px 32px;
     border: 0px solid  #FE5F41 ;
     border-radius: 40px;
     background-color: #FE5F41;
@@ -163,4 +163,21 @@ font-weight: 500;
 #foot2 {
     text-decoration: none;
     color: black;
+}
+
+#order:hover{
+    text-decoration: 2px underline #FE5F41;
+}
+
+#menu:hover{
+    text-decoration: 2px underline #FE5F41;
+}
+
+#dish-name:hover{
+    color: #FE5F41;
+}
+
+#nav-title:hover{
+    color: white;
+    text-decoration: 2px underline #FE5F41; 
 }
