@@ -181,3 +181,13 @@ font-weight: 500;
     color: white;
     text-decoration: 2px underline #FE5F41; 
 }
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
