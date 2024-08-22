@@ -172,7 +172,15 @@ font-weight: 500;
 #menu:hover{
     text-decoration: 2px underline #FE5F41;
 }
-
+#sect2-title:hover{
+    color: #FE5F41;
+}
+#sect3-title:hover{
+    color: #FE5F41;
+}
+#title3:hover{
+    color: #FE5F41;
+}
 #dish-name:hover{
     color: #FE5F41;
 }
@@ -190,4 +198,13 @@ font-weight: 500;
 .light{
     background-color: white;
     color: black;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #contact img{
+        width: 100vw;
+    }
+    .banner-part img{
+        width: 100vw;
+    }
 }
