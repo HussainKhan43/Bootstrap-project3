@@ -1,18 +1,18 @@
-// let modeBtn = document.getElementById("mode"); // Use getElementById instead of getElementsById
-// let body = document.getElementsByTagName("body")[0]; // Access the first body element
+let modeBtn = document.getElementById("mode"); 
+let body = document.getElementsByTagName("body")[0]; 
 
-// let currmode = "light"; // Initial mode
+let currmode = "light"; 
 
-// modeBtn.addEventListener("click", () => {
-//     if (currmode === "light") {
-//         currmode = "dark";
-//         body.classList.add("dark");
-//         body.classList.remove("light");
-//     } else {
-//         currmode = "light";
-//         body.classList.add("light");
-//         body.classList.remove("dark");
-//     }
+modeBtn.addEventListener("click", () => {
+    if (currmode === "light") {
+        currmode = "dark";
+        body.classList.add("dark");
+        body.classList.remove("light");
+    } else {
+        currmode = "light";
+        body.classList.add("light");
+        body.classList.remove("dark");
+    }
 
-//     console.log(currmode);
-// });
+    console.log(currmode);
+});
