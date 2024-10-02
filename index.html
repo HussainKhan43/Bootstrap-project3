@@ -184,25 +184,24 @@
           <p>Making a reservation at Délicious restaurant is easy and takes<br>just a couple of minutes.</p>
           <br>
           <div class="mb-3">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Number of guest">
+            <input type="text" class="form-control" id="name" placeholder="Name of the guest">
           </div>
-
+          <span id="nameerror" style="color: red;"></span>
           <div class="d-flex justify-content-around">
             <div class="row g-3 align-items-center">
               <div class="col-auto">
                 <label for="inputPassword6" class="col-form-label">Date:</label>
               </div>
               <div class="col-auto">
-                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                <input type="date" id="date" class="form-control" aria-describedby="passwordHelpInline">
               </div>
-
             </div>
             <div class="row g-3 align-items-center">
               <div class="col-auto">
                 <label for="inputPassword6" class="col-form-label">Time:</label>
               </div>
               <div class="col-auto">
-                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                <input type="password" id="time" class="form-control" aria-describedby="passwordHelpInline">
               </div>
 
             </div>
@@ -210,17 +209,19 @@
           </div>
           <br>
           <div class="mb-3">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+            <input type="email" class="form-control" id="phonenum" placeholder="Phone Number">
           </div>
+          <span id="phonenumerror" style="color: red;"></span>
           <div class="mb-3">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Id">
+            <input type="email" class="form-control" id="email" placeholder="Email Id">
           </div>
+          <span id="emailerror" style=" color: red;"></span>
           <div class="mb-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+            <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
           </div>
 
           <div class="d-grid gap-2">
-            <button class="btn btn-danger" type="button">Send Request</button>
+            <button class="btn btn-danger" type="submit" onclick="return data();">Send Request</button>
           </div>
         </div>
       </div>
